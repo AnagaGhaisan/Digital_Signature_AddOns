@@ -1,0 +1,45 @@
+{
+  "timeZone": "Asia/Jakarta",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "DigitalSignatureAddon",
+        "libraryId": "1M9GWHKnrQ59MHWcpDcxCiO2oMfB36KlrQy_sbZ311HszL8cL2vkkqPp2",
+        "version": "6",
+        "developmentMode": false
+      }
+    ]
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/spreadsheets.currentonly",
+    "https://www.googleapis.com/auth/documents",
+    "https://www.googleapis.com/auth/drive",
+    "https://www.googleapis.com/auth/gmail.send",
+    "https://www.googleapis.com/auth/userinfo.email"
+  ],
+  "urlFetchWhitelist": [
+    "https://api.qrserver.com/"
+  ],
+  "addOns": {
+    "common": {
+      "name": "Ivosights eSignature",
+      "logoUrl": "https://raw.githubusercontent.com/AnagaGhaisan/Imageholder/refs/heads/main/ChatGPT%20Image%20Aug%2020%2C%202025%2C%2011_29_07%20AM%20(1).webp",
+      "layoutProperties": {
+        "primaryColor": "#1976D2",
+        "secondaryColor": "#E3F2FD"
+      },
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
+      }
+    },
+    "docs": {
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
+      }
+    }
+  }
+}
